@@ -29,7 +29,7 @@ gulp.task('css', function() {
 			force: true,
 		}))
 		.pipe(autoprefixer({
-			browsers: ['last 2 Chrome versions'], // see https://github.com/browserslist/browserslist#queries
+			browsers: ['last 3 versions'], // see https://github.com/browserslist/browserslist#queries
 			cascade: false,
 		}))
 		.pipe(gulp.dest(bld_scss))
