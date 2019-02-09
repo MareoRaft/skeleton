@@ -1,0 +1,31 @@
+{
+  "name": "skeleton",
+  "productName": "Skeleton",
+  "version": "1.0.0",
+  "description": "Pay out ERC20 tokens to many people at once.",
+  "repository": "https://github.com/MareoRaft/skeleton",
+  "homepage": "http://learnnation.org/skeleton",
+  "keywords": [],
+  "author": "Matthew Lancellotti",
+  "license": "copyright",
+  "main": "build/client/scripts/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint src --color"
+  },
+  "dependencies": {
+    "check-types": "^7.4.0",
+    "csv-parse": "^2.5.0",
+    "datejs": "^1.0.0-rc3",
+    "gulp": "^4.0.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-for-compass": "0.0.2"
+  }
+}
