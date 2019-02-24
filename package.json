@@ -14,18 +14,31 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "eslint src --color"
+    "lint": "eslint src --color",
+    "build": "gulp",
+    "serve": "cd build/client && live-server",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "source/client"
+      ],
+      "extensions": "*",
+      "quiet": false
+    }
   },
   "dependencies": {
     "check-types": "^7.4.0",
     "csv-parse": "^2.5.0",
     "datejs": "^1.0.0-rc3",
-    "gulp": "^4.0.0",
     "jquery": "^3.3.1",
     "lodash": "^4.17.10"
   },
   "devDependencies": {
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
-    "gulp-for-compass": "0.0.2"
+    "gulp-for-compass": "0.0.2",
+    "live-server": "^1.2.1"
   }
 }
