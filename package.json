@@ -16,7 +16,7 @@
     "publish": "electron-forge publish",
     "lint": "eslint src --color",
     "build": "gulp",
-    "serve": "cd build/client && live-server",
+    "serve": "cd build/client && live-server --wait=350",
     "watch": "npm-watch"
   },
   "watch": {
