@@ -8,7 +8,9 @@ const UserInput = props => {
 				value={props.content}
 			>
 			</textarea>
-			<div>length: {props.content.length}</div>
+			<div>
+				length: {props.content.length}
+			</div>
 		</div>
 	);
 };
