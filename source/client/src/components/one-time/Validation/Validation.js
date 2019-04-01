@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 
-import actionTypes from 'store/actions.js';
+import actionTypes from 'src/store/actions.js';
 
 class Validation extends React.Component {
 		
