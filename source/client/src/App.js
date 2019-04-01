@@ -10,7 +10,7 @@ import Char from './components/one-time/Char/Char.js';
 
 class App extends Component {
 	state = {
-		content: 'edit me',
+		content: 'edit me 1',
 	}
 
 	changeContentHandler = (event) => {
@@ -49,9 +49,7 @@ class App extends Component {
 					onChange={this.changeContentHandler}
 					content={this.state.content}
 				/>
-				<Validation
-					content={this.state.content}
-				/>
+				<Validation/>
 				{this.renderChars(this.state.content)}
 			</div>
 		);

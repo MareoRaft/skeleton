@@ -16,10 +16,10 @@ class Char extends React.Component {
 	}
 }
 
-const CharPropTypes = {
+const propTypes = {
 	onClick: PropTypes.func,
 	char: PropTypes.string.isRequired,
 };
 
-Char.propTypes = CharPropTypes;
+Char.propTypes = propTypes;
 export default Char;
