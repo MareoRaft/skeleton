@@ -29,13 +29,13 @@ module.exports = {
 		},
 		'propWrapperFunctions': [
 			'forbidExtraProps',
-		{
-			'property': 'freeze',
-			'object': 'Object',
-		},
-		{
-			'property': 'myFavoriteWrapper',
-		},
+			{
+				'property': 'freeze',
+				'object': 'Object',
+			},
+			{
+				'property': 'myFavoriteWrapper',
+			},
 		],
 		'linkComponents': [
 			'Hyperlink',
@@ -62,5 +62,5 @@ module.exports = {
 			'error',
 			'always',
 		],
-	}
+	},
 };
