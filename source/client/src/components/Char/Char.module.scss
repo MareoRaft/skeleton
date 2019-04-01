@@ -1,7 +1,11 @@
+/* styles specific to Char module only */
+@import 'src/stylesheets/_constants';
+@import 'src/stylesheets/_color_scheme';
+
 .Char {
 	display: inline-block;
-	margin: 16px;
-	padding: 16px;
+	margin: $buffer;
+	padding: $buffer;
 	text-align: center;
-	border: 1px solid black;
+	border: 1px solid $outline-color;
 }
