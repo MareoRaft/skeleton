@@ -3,9 +3,9 @@ import _ from 'lodash';
 
 import './App.scss';
 
-import UserInput from './components/UserInput/UserInput.js';
-import Validation from './components/Validation/Validation.js';
-import Char from './components/Char/Char.js';
+import UserInput from './components/reusable/UserInput/UserInput.js';
+import Validation from './components/one-time/Validation/Validation.js';
+import Char from './components/one-time/Char/Char.js';
 
 
 class App extends Component {
