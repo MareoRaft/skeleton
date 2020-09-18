@@ -1,1 +1,0 @@
-React source scripts here (JavaScript and CSS)
