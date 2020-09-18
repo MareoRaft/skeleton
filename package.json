@@ -7,7 +7,7 @@
   "homepage": "http://learnnation.org/skeleton",
   "keywords": [],
   "author": "Matthew Lancellotti",
-  "license": "copyright",
+  "license": "UNLICENSED",
   "main": "build/client/scripts/main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -30,9 +30,7 @@
   },
   "dependencies": {
     "check-types": "^7.4.0",
-    "csv-parse": "^2.5.0",
     "datejs": "^1.0.0-rc3",
-    "jquery": "^3.3.1",
     "lodash": "^4.17.10"
   },
   "devDependencies": {
